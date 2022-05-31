@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | MyARS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="kiri">
+            <div class="kiri-content">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="login">
+                    <div class="login-description">
+                        <h2>MyARS</h2>
+                        <p>Sistem Informasi Akademik</p>
+                    </div>
+
+                    <form action="proses_login.php" method="post">
+                        <div class="form-input">
+                            <label for="username">Username</label>
+                            <input type="text" class="input" name="username" required>
+                        </div>
+                        
+                        <div class="form-input">
+                            <label for="password">Password</label>
+                            <input type="password" class="input" name="password" required>
+                        </div>
+
+                        <div class="form-bawah">
+                            <label for="checkbox"><input type="checkbox" name="checkbox"> Remember Me</label>
+                            <button type="submit" class="button-login">Sign In
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="kanan">
+            <h3 class="ars-university">ARS University</h3>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kiri {
+    padding: 40px;
+    width: 100%;
+}
+.kiri-content {
+    width: 70%;
+    margin: 0 auto;
+}
+.logo img {
+    width: 70px;
+}
+.login {
+    margin-top: 40px;
+}
+.login-description h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.login-description p {
+    font-size: 18px;
+    color: #B5B5C3;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.login form {
+    margin-top: 50px;
+}
+.form-input {
+    margin-top: 30px;
+}
+.form-input label {
+    font-weight: 600;
+    font-size: 14px;
+}
+.input {
+    width: 100%;
+    padding: 25px 15px;
+    border: none;
+    background-color: #F0F2F6;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.form-bawah {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0 20px;
+    align-items: center;
+}
+.form-bawah label {
+    font-size: 12px;
+}
+.form-bawah input {
+    margin-right: 5px;
+}
+.button-login {
+    padding: 20px 30px;
+    font-weight: 600;
+    border: none;
+    background-color: #608DFF;
+    color: white; 
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.kanan {
+    background-color: #52A3DA;
+    width: 100%;
+    height: 100vh;
+    background-image: url('gambar.png');
+    background-size: 400px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.ars-university {
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 90px;
+}
